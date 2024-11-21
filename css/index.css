@@ -1,0 +1,99 @@
+/* selecting by id */
+#h1{
+    color: red;
+}
+
+/* univasal selector
+selector type{
+css rules
+}
+
+/* selecting by tagname */
+.p1{
+    border: 1px solid red;
+    
+    }
+
+     /* attribute selector */
+     /* 
+     <tagname attributes> text </tagname>
+     or
+          <tagname attributes using comma
+           */
+           /* [title='first paragraph,secound paragraph,third paragraph,fourth paragraph,fifth paragraph'] 
+           {
+            border: 5px dashed purple;
+             } */
+
+              /* selecting by class */
+.h2{
+    border: 1px solid blue;
+
+}
+
+p:hover{
+    background-color: green;
+    color: white;
+ }
+
+ /* list or group selector using comma */
+p,h2{
+     border: 1px solid blue;
+ }
+
+ /* specificity */
+ #who{
+    color: black;
+ }
+ body .question span{
+    color: peru;
+ }
+ .question span{
+    color: crimson;
+ }
+ span{
+    color: blue;
+ }
+
+ /* margin and padding */
+ /* 
+ padding:10px;//top right bottom left
+ padding:10px 20px; // top/ bottom/left/right;
+ padding: 10px 20px 30px 40px; //top right bottom left
+
+ margin: 10px; //top right bottom left
+  margin: 10px 20px; //top right bottom left
+ margin: 10px 20px 30px 40px; //top right bottom left
+  */
+ 
+  .question{
+    background-color: transparent;
+    margin: 10px 20px;
+    /* padding: 10px;  */
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border radius: top-left top-right bottom-right bottom-left */
+    border-radius: 40px 20px 30px 10px;
+     /* border-radius: h-offset v-offrset blur spread color */
+     box-shadow: 0px 0px 4px 5px black;
+     text-align: center;
+  }
+
+  .question span{
+    text-transform: uppercase;
+    font-family: "Doto", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  /*section1*/
+  .section1{
+    background-image: url("../images/flowers.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    border: 3px groove purple;
+    background-position: top right;
+  }
